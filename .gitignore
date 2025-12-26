@@ -2,6 +2,8 @@ ExiledCSX.EventGen/
 
 [Dd]ebug/
 [Rr]elease/
+*.dll
+*.pdb
 x64/
 x86/
 [Bb]in/
