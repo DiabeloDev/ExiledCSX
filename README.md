@@ -11,8 +11,9 @@
 ## Installation
 1. Install [EXILED](https://github.com/ExMod-Team/EXILED) on your server.
 2. Download `ExiledCSX.dll` from the releases page and put it in your `EXILED/Plugins` folder.
-3. Restart the server to generate the necessary folders.
-4. Place your `.csx` scripts in `EXILED/Plugins/ExiledCSX/Scripts`.
+3. Download `Mono.CSharp.dll` and place it in your `EXILED/Plugins/dependencies` folder (Required).
+4. Restart the server to generate the necessary folders.
+5. Place your `.csx` scripts in `EXILED/Plugins/ExiledCSX/Scripts`.
 
 ## Script Example
 The engine automatically detects the `Joined` event based on the `JoinedEventArgs`. You can also use `ScriptAPI` to register custom sub-commands.
